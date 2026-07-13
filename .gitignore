@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+
+# Virtual env
+venv/
+.venv/
+env/
+
+# Models (too large for git, download separately)
+model/
+*.pt
+*.onnx
+*.jit
+*.glb
+
+# IDE
+.idea/
+.trae/
+.vscode/
+
+# Logs & runtime
+*.log
+run.log
+s_out.log
+s_err.log
+server_stdout.log
+server_stderr.log
+recordings/
+
+# Secrets
+.env
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build artifacts
+compile/*.elf
+compile/*.bin
+compile/*.hex
+
+# Large model files (>100MB, GitHub hard limit)
+mobileclip_blt.ts
+
+# Static 3D model (13MB, optional to ship)
+static/models/*.glb
