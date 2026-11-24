@@ -1,7 +1,7 @@
 ## 🙋 贡献声明
 
 > 本仓库由 [@AI-FanGe/OpenAIglasses_for_Navigation](https://github.com/AI-FanGe/OpenAIglasses_for_Navigation) 原始开源框架 Fork 而来。
-> 我（何健伟 / [@Supu7796](https://github.com/Supu7796)）作为 10 人跨专业团队 Leader，主导本仓库的二次开发、工程落地与商业交付。我负责的具体工作包括：
+> 我（[@supumi](https://github.com/supumi)）作为 10 人跨专业团队 Leader，主导本仓库的二次开发、工程落地与商业交付。我负责的具体工作包括：
 >
 > 1. **架构落地**：在其基础上重构"端侧轻采集 - 服务端强推理 - 全语音交互"分层架构，端侧仅保留音视频采集与播放，服务端承载全部 YOLO 推理、状态调度与 DashScope 多模态调用
 > 2. **算法优化**：基于 Lucas-Kanade 光流算法提升盲道分割掩码稳定性；调优 YOLO-E 开放词汇检测 + ByteTrack 追踪 + MediaPipe 手部引导的物品搜索链路
@@ -11,7 +11,7 @@
 > 6. **项目管理**：实现 10 人跨专业团队分工与交付，带队斩获湖北省第十四届"挑战杯"省级三等奖
 > 7. **commit 历史**：可在本仓库 commit 历史中查阅我的二次开发记录（如 navigation_master.py / workflow_blindpath.py / yolomedia.py 等模块的调优与业务逻辑开发）
 >
-> ✉️ 联系作者：1745002884@qq.com ｜ GitHub: [@Supu7796](https://github.com/Supu7796)
+> ✉️ 联系作者：1745002884@qq.com ｜ GitHub: [@supumi](https://github.com/supumi)
 > 模型下载：https://www.modelscope.cn/models/archifancy/AIGlasses_for_navigation
 # AI 智能盲人眼镜系统 🤖👓
 
